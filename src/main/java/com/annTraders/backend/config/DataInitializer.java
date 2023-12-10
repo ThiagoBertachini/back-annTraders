@@ -3,6 +3,8 @@ package com.annTraders.backend.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import com.annTraders.backend.repositories.ProductRepository;
+import com.annTraders.backend.models.Product;
 
 @Component
 public class DataInitializer implements CommandLineRunner {
@@ -25,3 +27,4 @@ public class DataInitializer implements CommandLineRunner {
         }
     }
 }
+
